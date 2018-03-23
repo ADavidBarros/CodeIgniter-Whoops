@@ -1,12 +1,12 @@
 ## [CodeIgniter](https://codeigniter.com/) [Whoops](http://filp.github.io/whoops/) Integration
 
-There are a couple things to setup, It is really simple however, after hours of research really wasn't able to find a good example. I hope this helps someone 
+There are a couple things to setup, It is really simple however, after hours of research I wasn't able to find a complete example. I hope this helps someone! 
 
-This entry in [StackOverFlow](https://stackoverflow.com/a/48360425) help a lot
+This entry from [StackOverFlow](https://stackoverflow.com/a/48360425) helped a lot.
 
 ### Composer Dependencies
 ```bash
-### composer require filp/whoops
+$ composer require filp/whoops
 ```
 or update the composer.json file 
 ```json
@@ -47,7 +47,7 @@ Instruction by [ZGUARD](https://stackoverflow.com/users/9238132/zguard)
 
 ## Additonal Checks
 
-In the config file make sure to enable composer 
+**In the config file make sure to enable composer**
 ```php
 //$config['composer_autoload'] = TRUE; //This didn't work for me
 ```
