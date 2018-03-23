@@ -14,12 +14,14 @@ or update the composer.json file
 		"filp/whoops": "^2.1"
 	},
 ```
-
+```bash
+$ composer update
+```
 ### Setup Hook
 
  Under the application folder 
 
-Instruction by [ZGUARD](https://stackoverflow.com/users/9238132/zguard)
+Instructions by [ZGUARD](https://stackoverflow.com/users/9238132/zguard)
  1. Make sure hooks are enabled in `config/config.php`
         
         $config['enable_hooks'] = true;
