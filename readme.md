@@ -4,6 +4,9 @@ There are a couple things to setup, It is really simple however, after hours of 
 
 This entry from [StackOverFlow](https://stackoverflow.com/a/48360425) helped a lot.
 
+### <spam color="red">Note</spam> 
+I tested it with PHP 5.6.24 and it didn't work, with 7.2 was successful 
+
 ### Composer Dependencies
 ```bash
 $ composer require filp/whoops
